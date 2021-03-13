@@ -34,6 +34,7 @@ const ColorsList = () => {
           <div className="flex justify-evenly mt-8 pt-8">
             <button
               onClick={() => setPage(1)}
+              disabled={page === 1}
               className="text-blue-600 font-bold py-4 hover:text-red-700 outline-none focus:outline-none uppercase"
             >
               Previous
@@ -57,20 +58,7 @@ const ColorsList = () => {
 export default ColorsList;
 
 /*IMPORTANT
---> onClick={() => setPage(old => Math.max(old - 1, 1))} 
-Math: takes in the current value, max takes in 2  numbers and in returns the biggest of those 2.
-If we have a page of 3 (3-1, 1) = 2. 
-2 > 1 --> it sates the state of the page to be 2
-if we're on page 1 (1-1, 1)= 0 
-0 <1 and the math function takes the biggest of the numbers, so it will take us on to page 1
-We can never go less than 1
-
-
---> onClick={() => setPage(old => (!latestData || !latestData.next ? old : old + 1))} 
-            disabled={!latestData || !latestData.next}>
-!latestData  if we don't have data or if we don't have a next property on that data
-
 --> { staleTime: 2000 } controls how long data is fresh for 
 
---> { usePaginatedQuery } 
+--> { usePaginatedQuery } resolvedData= the last successful data that we have access to
 */

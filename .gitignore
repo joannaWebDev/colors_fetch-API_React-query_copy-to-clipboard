@@ -26,3 +26,6 @@ yarn-error.log*
 src/tailwind.output.css
 notes.md
 tech_test_docs
+
+# Local Netlify folder
+.netlify

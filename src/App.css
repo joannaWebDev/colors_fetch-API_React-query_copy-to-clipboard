@@ -30,7 +30,10 @@ button {
   background-color: transparent;
   border: none;
 }
-
+button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
 img {
   display: block;
   height: auto;
