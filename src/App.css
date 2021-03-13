@@ -1,0 +1,93 @@
+/*RESETS*/
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/**/
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  color: inherit;
+  background-color: transparent;
+  border: none;
+}
+
+img {
+  display: block;
+  height: auto;
+  text-align: center;
+}
+
+/*VARIABLES*/
+:root {
+  --blue: #002D62;
+  --white: #fff;
+}
+
+/*FONT-SIZE DECLARATION*/
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 3.2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2.7rem;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-color: #f8f9d2;
+  background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+}
+
+section {
+  margin: 10% auto;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width:768px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  html {
+    font-size: 18px;
+  }
+}
