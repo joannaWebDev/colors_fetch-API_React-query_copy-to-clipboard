@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = ({ title, subtitleParagraph, aboutParagraph, backImg }) => {
   return (
-    <section className="container w-full flex justify-around flex-col md:flex-row items-center my-13 mx-auto px-2">
+    <section className="container w-full flex justify-around flex-col md:flex-row items-center mt-13 mb-56 mx-auto px-2">
       <img
         loading="lazy"
         src={backImg}

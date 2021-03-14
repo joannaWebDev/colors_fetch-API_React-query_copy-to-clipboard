@@ -26,11 +26,11 @@ const ColorsList = () => {
 
       {status === 'success' && (
         <>
-          <ul className="flex justify-center items-center flex-col md:flex-row flex-wrap">
+          <div className="flex justify-center items-center flex-col md:flex-row flex-wrap">
             {resolvedData.data.map((color) => (
               <Color key={color.id} color={color} />
             ))}
-          </ul>
+          </div>
           <div className="flex justify-evenly mt-8 pt-8">
             <button
               onClick={() => setPage(1)}

@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-icons": "^4.2.0",
     "react-query": "^1.5.8",
     "react-query-devtools": "^1.1.17",
     "react-router-dom": "^5.2.0",

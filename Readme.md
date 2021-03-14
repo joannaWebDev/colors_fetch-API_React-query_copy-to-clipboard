@@ -35,29 +35,8 @@ $ npm start
 ## Deploy on Netlify
 ```
 $ npm run build
-
 $ npm install netlify-cli -g
 $ netlify deploy
-
-? What would you like to do? Link this directory to an existing site
-
-netlify link will connect this folder to a site on Netlify
-
-? How do you want to link this folder to a site? Use current git remote origin (your github repo)
-
-Looking for sites connected to ''...
-
-
-Directory Linked
-
-Admin url: 
-Site url:  
-
-Deploying to main site URL...
-√ Finished hashing 17 files
-√ CDN requesting 0 files
-√ Finished uploading 0 assets
-√ Deploy is live!
 ```
 
 ***
