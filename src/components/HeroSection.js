@@ -1,6 +1,5 @@
 import React from 'react';
 import Hero from './Hero';
-
 import backImg from './../assets/color-pencils-34595_640.png';
 
 const HeroSection = (props) => {

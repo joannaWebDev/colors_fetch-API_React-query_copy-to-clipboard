@@ -30,10 +30,12 @@ button {
   background-color: transparent;
   border: none;
 }
+
 button:disabled {
   opacity: 0.3;
   cursor: not-allowed;
 }
+
 img {
   display: block;
   height: auto;
@@ -83,6 +85,19 @@ section {
   overflow-x: hidden;
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.success::before {
+  content: 'COPIED:';
+  font-weight: bold;
+}
+
 @media screen and (min-width:768px) {
   html {
     font-size: 17px;
@@ -94,6 +109,7 @@ section {
     font-size: 18px;
   }
 }
+
 .hide {
   display: none;
 }
